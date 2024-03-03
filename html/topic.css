@@ -1,0 +1,39 @@
+
+*{
+          margin: 0;
+          padding: 0;
+}
+html{
+          scroll-behavior: smooth;
+}
+.dec{
+     text-decoration: none; 
+     color: white;
+     margin-left: 38px;
+     width: 0;
+     transition: 0.5s linear;
+}
+     .dec:hover{
+          color: rgb(122, 163, 163);
+          width: 100%;
+          border-bottom: 2px solid indianred;
+}
+     #cen{
+          height: 2%;   
+       }
+       .main{
+          display: flex;
+          justify-content: flex-end;
+          margin-top: 20px;
+    }
+.aj{
+          font-size: 55px;
+}
+.container{
+          margin-left: 40px;
+          font-size: 35px;
+}
+#com{
+     font-size: 25px;
+     text-align: justify;
+}
